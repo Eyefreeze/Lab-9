@@ -54,7 +54,7 @@ def create_figure():
     for item in results[:5]:
         values.append(item[1])
         curriencies.append(item[0])
-    axis.bar(curriencies, values, bar_width, alpha=opacity, color='b')
+    axis.bar(curriencies, values, bar_width, alpha=opacity, color='r')
     return fig
 
 @app.route('/plot.png')
